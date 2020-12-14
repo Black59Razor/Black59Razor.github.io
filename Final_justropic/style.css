@@ -1,0 +1,292 @@
+
+/*
+
+
+=== Justropic Plant Stylesheet ===
+
+There is a LOT of different elements here that is already applied to all the pages including all the grids and type so becareful on changing anything or analyze the code and see if anything is conflicting with your own code!
+
+*/
+
+
+
+/* == Typography == */
+
+body {
+    font-family: 'Alatsi';
+}
+
+
+#topbar {
+    
+    color: white;
+    
+}
+
+
+#storevisit {
+   color: white;
+    font-size: 1.8rem;
+}
+
+#nav a {
+  
+    padding-right: 10%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #b5efd5;
+}
+
+#nav a:hover {
+    color: #43b4bb;
+}
+
+#midbar {
+    
+    font-size: 1.8rem;
+    line-height: 25px;
+    
+}
+
+#shoppic img:hover{
+    color: #43b4bb;
+    opacity: 50%;
+}
+
+/* Font Awesome icons */
+
+
+
+
+
+
+
+/* == Background == */
+
+body {
+    background-color: #52db68;
+}
+
+#topbar {
+    background-color: #df8faa;
+}
+
+
+#storevisit {
+    
+    background-image: url(images/home1.jpg);
+    background-size: cover;                   
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* == Box Model == */
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header {
+    
+   padding-bottom: 1.5rem;
+}
+
+#nav {
+    
+    padding-top: 50px;
+}
+
+
+#storevisit {
+    height: 20rem;
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+#midbar {
+    padding: 5px 10px;
+    margin: 8px 20px;;
+    border: 12px solid #a8850d;
+}
+
+
+/* === Layout  === */
+
+#topbar {
+    text-align: center;
+
+    
+}
+
+#nav {
+    text-align: center;
+}
+#storevisit {
+    
+}
+
+#midbar {
+    text-align: center;
+    background-color: white
+}
+
+
+/* = Grid =*/
+
+header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-content: center;
+}
+
+hr {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#topbar {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#storevisit {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#midbar {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#shop{
+    display: grid;
+    grid-template-columns:
+        25% 25% 25% 25%;
+    grid-column-start: 1;
+    grid-column-end:5;
+   
+
+   
+}
+
+#newtext {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+   
+}
+
+#newplant{
+    position: absolute;
+    left:390px;
+    width: 800px;
+    text-align: center;
+    
+    
+}
+ 
+
+/* = Flexbox = */
+
+
+
+/* = Other = */
+
+.button1 {
+    
+    font-family: "Alatsi";
+    font-size: 1.4rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 2px 75px;
+}
+
+
+.botimg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+    
+}
+
+
+#botimg1 {
+    background-image: url(images/home2.jpg);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 5px;
+}
+
+#botimg2 {
+    background-image: url(images/home3.jpg);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin: 5px;
+}
+.textcenter{ 
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18pt;
+    
+
+}
+.floatleft{
+    float: left;
+}
+
+
+.centerpic{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#textbox{
+    background-color: white;
+    position: absolute;
+    width: 510px;
+    left: 1000px;
+    top: 250px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.aboutpic{
+
+    width: 690px;
+    padding-top: 70px;
+    left: 300px
+    
+}
+.titlecenter{
+    text-align: center;
+}
+#device{
+    display: none;
+}
+#newtext{
+    text-align: center;
+    
+}
+
+
+#picdevice3 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-left: 30%;
+}
+
+
+    

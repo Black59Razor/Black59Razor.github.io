@@ -1,0 +1,43 @@
+/* Responsive CSS Here */
+@media screen and (max-width:600px){ 
+    main{
+        display: grid;
+        grid-template-columns: 100%}
+    p{ display: block;
+        align-items: center;
+    }
+    img{
+        display: block;
+        align-items: center;
+         display: grid;
+        grid-template-columns: 100%
+    }
+    #textbox{
+        display: none;
+    }
+    #device{
+        display: contents;
+        text-align: center;
+    }
+    #picdevice1{
+        width: 100%;
+    }
+    #picdevice2{
+        width: 100%;
+    }
+    #nav a{
+        font-size: 11pt;
+    }
+    #plants{display: grid;
+        grid-template-columns: 50% 50%}
+    #newplant{
+        width: 100%
+    }
+    #picdevice3{
+        width: 100%;
+    
+    }
+        
+    }
+
+}
